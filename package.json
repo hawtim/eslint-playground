@@ -1,0 +1,26 @@
+{
+  "name": "eslint-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sort-keys": "eslint --fix ./tests/sort-keys/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gitlab@git.garena.com:haotian.zhang/eslint-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-sort-keys": "^2.0.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  }
+}
