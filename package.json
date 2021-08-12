@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sort-keys": "eslint --fix ./tests/sort-keys/index.js"
+    "sort-keys": "eslint --fix ./tests/sort-keys/overlap.js"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,7 @@
   "dependencies": {
     "eslint": "^7.32.0",
     "eslint-plugin-import": "^2.24.0",
-    "eslint-plugin-sort-keys": "^2.0.0",
-    "eslint-plugin-sort-keys-fix": "^1.1.2"
+    "eslint-plugin-sort-keys": "^2.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

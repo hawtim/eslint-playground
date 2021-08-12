@@ -46,9 +46,9 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["tests/sort-keys/index.js"],
+      files: ["tests/sort-keys/overlap.js"],
       rules: {
-        "sort-keys": "warn",
+        "sort-keys/sort-keys-fix": "warn",
       },
     },
   ],
