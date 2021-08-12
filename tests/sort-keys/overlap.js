@@ -1,9 +1,4 @@
-import { queryParam } from '@ssc/request';
-
-import { getStationType } from '~/utils/multiStation';
-
 import request, { baseURL } from './request';
-
 const apiPrefix = '/api/admin/transport';
 
 const apiForModule = {
@@ -15,8 +10,6 @@ const apiForModule = {
     transportOrderDetail: 'fleet/order/search', // toScan page, transport order detail
     transportOrderPrintDetail: 'print/data', // toScan page, transport order print detail for new design
     transportOrderLabel: 'print', // toScan page, transport order label
-    addSpxTrackingNumber: 'add', // toScan page, transport order add spx tracking number
-    deleteSpxTrackingNumber: 'fleet/order/delete', // toScan page, transport order delete spx tracking number
     completeTransportOrder: 'packed', // toScan page, transport order complete
     reOpenTransportOrder: 'reopen', // toScan page, transport order reopen
   },
