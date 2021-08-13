@@ -16,7 +16,7 @@
   "dependencies": {
     "eslint": "^7.32.0",
     "eslint-plugin-import": "^2.24.0",
-    "eslint-plugin-sort-keys": "^2.0.0"
+    "eslint-plugin-sort-keys": "^2.3.5"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
