@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sort-keys": "eslint --fix ./tests/sort-keys/index.js"
+    "lint": "eslint --fix ./tests"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "dependencies": {
     "eslint": "^7.32.0",
     "eslint-plugin-import": "^2.24.0",
-    "eslint-plugin-sort-keys": "^2.0.0",
+    "eslint-plugin-sort-keys": "^2.3.5",
     "eslint-plugin-sort-keys-fix": "^1.1.2"
   },
   "devDependencies": {

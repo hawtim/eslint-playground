@@ -48,7 +48,14 @@ module.exports = {
     {
       files: ["tests/sort-keys/index.js"],
       rules: {
-        "sort-keys": "warn",
+        // disable default eslint sort-keys
+        'sort-keys': 0,
+        'sort-keys/sort-keys-fix': 1,
+        // Off the rule sort-imports and import/order to avoid conflicting with simple-import-sort.
+        'sort-imports': 0,
+        'import/order': 0,
+        'simple-import-sort/imports': 2,
+        'simple-import-sort/exports': 2,
       },
     },
   ],
