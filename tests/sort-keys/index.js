@@ -1,8 +1,10 @@
-// comment
+
 import clear from './clear';
 import declare from './declare';
-import arrow from './arrow'; // arrow
+
+// comment
 import boy from './boy'; // boy
+import arrow from './arrow'; // arrow
 
 export default {
   clear, // clear
