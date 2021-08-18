@@ -1,5 +1,6 @@
 import clear from "./clear";
-import declare, { cMethods, bMethods, aMethods } from "./declare";
+import { cMethods, bMethods, aMethods } from "./declare";
+import declare from "./declare";
 
 // comment
 import boy from "./boy"; // boy
