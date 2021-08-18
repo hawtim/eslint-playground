@@ -42,7 +42,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["tests/**/*.js"],
+      files: ["tests/*.js"],
       rules: {
         // disable default eslint sort-keys
         'sort-keys': 0,
