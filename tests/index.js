@@ -5,6 +5,7 @@ import declare from "./declare";
 // comment
 import boy from "./boy"; // boy
 import arrow from "./arrow"; // arrow
+import test from "./test"
 
 cMethods();
 bMethods();
@@ -15,5 +16,6 @@ export default {
   declare, // declare
   arrow,
   boy,
+  test
   // comment
 };
